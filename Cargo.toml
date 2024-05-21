@@ -1,0 +1,11 @@
+[package]
+name = "test-try-join"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+config = "0.14.0"
+serde = "1.0.202"
+serde_json = "1.0.117"
+thiserror = "1.0.60"
+tokio = { version = "1.37.0", features = ["full", "tracing"] }
